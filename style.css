@@ -18,7 +18,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
 }
-
+ul{
+    background-color: white;
+}
 #big-bold {
     font-family: Abril Fatface;
     text-align: center;
@@ -51,4 +53,73 @@ nav li, a:link {
     text-decoration: none;
     padding: 0px 5px;
     font-size: .82em;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#red {
+    color: red;
+}
+
+.article-title {
+    font-family: Roboto Slab;
+}
+
+#first-image{
+    width: 100%;
+}
+
+p {
+    font-family: Source Sans Pro;
+    text-align: justify;
+    font-size: .9em;
+}
+
+.more-articles {
+    margin: 1em;
+}
+
+.more-articles section {
+    display: inline-block;
+    margin: 0em 1em;
+    width: 44%;
+}
+
+.more-articles img{
+    width: 100%;
+}
+
+.more-articles h4 {
+    text-align: left;
+}
+
+.even-more-articles {
+    margin: 1em;
+}
+
+.even-more-articles section{
+    width: 30%;
+    display: inline-block;
+    margin: 0em .5em;
+}
+
+.even-more-articles img {
+    display: inline-block;
+    width: 100%;
+}
+
+.even-more-articles h4 {
+    text-align: left;
+}
+
+#center {
+    text-align: center;
+    margin: auto;
+    list-style: none;
+    width: 50%;
+    padding-right: 50px;
 }
